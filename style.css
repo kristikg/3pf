@@ -16,4 +16,47 @@
 
 
 /* =Theme customization starts here
+
+div.column-1_2.column_padding_bottom
+	div.sc_team_item
+		div.sc_team_item_avatar = team member image
+			img
+		div.sc_team_item_info = team member info block
+			h5.sc_team_item_title
+				a
+			div.sc_team_item_position
+			div.sc_team_item_description
+			div.sc_socials
 -------------------------------------------------------------- */
+.post-2302 h1 {
+	margin-bottom: 1em;
+}
+.sc_team .columns_wrap > [class*="column-"].column_padding_bottom {
+	padding-bottom: 60px;
+	border-bottom: 1px solid #777;
+	margin-bottom: 50px
+}
+.sc_team div.column-1_2.column_padding_bottom {
+	padding-right: 50px;
+}
+div.sc_team_item_avatar {
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+div.sc_team_item_info {
+	width: 65%;
+	display: inline-block;
+	float: right;
+}
+.sc_team_item div.sc_team_item_info {
+	padding-top: 0;
+}
+h5.sc_team_item_title, 
+div.sc_team_item_position,
+div.sc_team_item_description {
+	text-align: left;
+}
+div.sc_socials {
+	display: none;
+}
