@@ -26,15 +26,19 @@ div.column-1_2.column_padding_bottom
 				a
 			div.sc_team_item_position
 			div.sc_team_item_description
+			div.sc_team_item_contact
 			div.sc_socials
 -------------------------------------------------------------- */
+/**MEET OUR TEAM staff page Pages>Meet Our Team + templates/single-team.php**/
 .post-2302 h1 {
 	margin-bottom: 1em;
 }
 .sc_team .columns_wrap > [class*="column-"].column_padding_bottom {
-	padding-bottom: 60px;
-	border-bottom: 1px solid #777;
-	margin-bottom: 50px
+	margin-bottom: 30px;
+}
+.sc_team .columns_wrap > [class*="column-"].column_padding_bottom:nth-child(n+3) {
+	padding-top: 80px;
+	border-top: 1px solid #777;
 }
 .sc_team div.column-1_2.column_padding_bottom {
 	padding-right: 50px;
@@ -54,9 +58,7 @@ div.sc_team_item_info {
 }
 h5.sc_team_item_title, 
 div.sc_team_item_position,
-div.sc_team_item_description {
+div.sc_team_item_description,
+div.sc_team_item_contact {
 	text-align: left;
-}
-div.sc_socials {
-	display: none;
 }
